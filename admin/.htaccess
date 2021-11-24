@@ -1,0 +1,4 @@
+AuthName PSP
+AuthType Basic
+AuthUserFile /var/www/html/access/.htpasswd
+require user linuxdb

@@ -1,0 +1,19 @@
+CREATE TABLE notes ( id    int auto_increment not null primary key, Date  char(50)     not null, 
+			Email  char(50)     not null, 
+			Vendor  char(50)     not null, 
+			Component  char(50)     not null, 
+			Title  char(255)     not null, 
+			Description  TEXT);
+
+CREATE TABLE deleted ( id    int auto_increment not null primary key, 
+			Date  char(50)     not null, Email  char(50)     not null, 
+			Vendor  char(50)     not null, Component  char(50)     not null, 
+			Title  char(255)     not null, 
+			Description  TEXT);
+
+CREATE TABLE last_number ( id    int auto_increment not null primary key);
+
+INSERT INTO last_number values(1);
+
+CREATE TABLE deleted_note_number ( id    int auto_increment not null primary key);
+

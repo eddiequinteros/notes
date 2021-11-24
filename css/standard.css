@@ -1,0 +1,364 @@
+/*@import url("desktop.css") only screen and (min-width:768px) ;
+@import url("tablet.css") only screen and (min-width:625px) and (max-width:765px);
+@import url("mobile.css") only screen and (max-width:623px);*/
+
+*{
+	margin:0;
+	padding:0;
+}
+@font-face{
+	font-family: 'HPSimplified_Rg';
+	src: url("../fonts/hps-euro-regular-eot.eot?#iefix") format("embedded-opentype"), url("../fonts/hps-euro-regular-woff.woff") format("woff"), url("../fonts/hps-euro-regular-ttf.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'HPSimplified_Bd';
+	src: url("../fonts/hps-euro-bold-eot.eot?#iefix") format("embedded-opentype"), url("../fonts/hps-euro-bold-woff.woff ") format("woff"), url("../fonts/hps-euro-bold-ttf.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+    background-color: #E6EBEE;
+	font-family:HPSimplified_Rg,Arial,sans-serif;
+	color: #222222;
+	font-size: 14px;
+	/*margin-left:13%;
+	margin-right:13%;*/
+	width:92%;
+	margin: 0 auto;
+}
+.spacer{
+    background: none repeat scroll 0 0 #FFFFFF; 
+	height:25px;
+	clear:both;
+}
+.spacer.first{
+	height:5px;
+}
+a {
+    color: #007DBA;
+    font-weight: normal;
+    text-decoration: none;
+}
+.responsiveMobile{
+	display:none;
+}
+/*********** Related to the main menu section ************/
+.menuSection{
+	background: none repeat scroll 0 0 #E6EBEE;
+	padding-top:0.5em;
+}
+.menuSection span{
+    color: #777777;
+	cursor:pointer;
+	float:left;
+    font-size: 1em;
+}
+.menuSection span a{
+	color:#777777;
+}
+.menuSection span .dropdown a:hover{
+	color:#222222;
+}
+.menuSection span .toplevel{
+   background:none repeat scroll 0 0 #E6EBEE;
+}
+.menuSection #siteDirText {
+	color: #717172;
+    cursor: pointer;
+    float: left;
+    font-family: HPSimplified_Rg;
+    margin-left: 6em;
+    width: 200px;
+}
+.menuSection .downArrow{
+	background: url("../images/downArr1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	margin-top: .4em;
+	width:14px;
+	height:12px;
+}
+#siteDirText .dropdown .toplevel .empLnkImg{
+	display:none;
+	margin-top: .4em;
+	width:14px;
+	height:12px;
+}	
+/*********** Related to the main menu section ***********/
+
+/************* Related to the search section *************/
+.searchSection{
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+.searchSection .hpLogo{
+	background: url("../images/HP_Blue_RGB_150_70px.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height:6em;
+	margin: 20px 35px 0 45px;
+	width:70px;
+	float:right;
+}
+.searchSection #hpLogo{
+	display:none;
+	height:6em;
+	margin: 20px 35px 0 45px;
+	width:70px;
+	float:right;
+}
+.searchSection .spacer{
+	height:2px;
+}
+.searchSection .srchAndEmplLnk{
+	float:right;
+	margin-right:6.5em;
+}
+.searchSection .pplFinder,
+.searchSection .contentFinder {
+    background: none repeat scroll 0 0 #E6EBEE;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    margin-left: 1.2em;
+    margin-top: 0.1em;
+    padding: 0.2em 0.1em 0.15em 0.2em;
+    width: 13.5em;
+}
+.searchSection .pplFinder input[type="text"],
+.searchSection .contentFinder input[type="text"] {
+    border: medium none;
+    border-radius: 0 2px 3px 0;
+    float: left;
+    font-family: HPSimplified_Rg,Arial,sans-serif;
+    font-size: 1em;
+    height: 1.5em;
+    line-height: 1.6em;
+    margin-left: 0.4em;
+    padding: 0.2em;
+    width: 10.8em;
+}
+.searchSection .searchIcon{
+	background: url("../images/srchIcon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 16px;
+    margin-left: 0.2em;
+    margin-right: 0.4em;
+    margin-top: 0.3em;
+    width: 16px;
+}
+.searchSection .srchAndEmplLnk .pplFinder img,
+.searchSection .srchAndEmplLnk .contentFinder img{
+    border:none;
+    display:none;
+	float:left;
+	height: 16px;
+	margin-left: 0.2em;
+	margin-right: 0.4em;
+	margin-top: 0.3em;
+	width: 16px;
+}
+/************* Related to the search section *************/
+
+/*************    Refresh content section    *************/
+.line{
+	background: none repeat scroll 0 0 #FFFFFF;
+	clear:both;
+}
+.line .spacer{
+	margin-left: .3em;
+	margin-right: .3em;
+}
+.epi-menu{
+	background: none repeat scroll 0 0 #FFFFFF;
+	font-size:.95em;
+	margin-bottom:.6em;
+	padding:.4em;
+	padding-bottom:.6em;
+}
+.epi-menu a:hover {
+    color: #F05332;
+    text-decoration: underline;
+}
+/*************    Refresh content section    *************/
+
+/*************    Footer content section    *************/
+.footer{
+	background: none repeat scroll 0 0 #FFFFFF;
+    font-size: 0.85em;
+    margin-top: 0.8em;
+    padding: 0.2em 0.4em 0 0;
+    text-align: right;
+}
+.footer A {
+    color: #777777;
+    font-weight: normal;
+    margin: 0 .5em;
+    text-decoration: none;
+}
+.footer A:hover {
+    color: #007DBA;
+    text-decoration: underline;
+}
+/*************    Footer content section    *************/
+
+/********    Site Dir Links content section   ***********/
+.toplevel {
+	display:block;
+	font-size:.9em;	
+	padding:0 10px;
+	line-height:2;
+	color:#777777;
+	text-decoration:none;
+	background:#FFFFFF;
+	cursor:pointer;
+}
+/* Dropdowns */
+.dropdown {
+	position:relative;
+	z-index:200;
+}
+.submenu {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	display: none;
+	font-size: 1.1em;
+	left: 0;
+	padding-left: 0.2em;
+	position: absolute;
+	top: 2em;
+	width: 45em;
+	z-index: 200;
+}
+.menuSection .submenu{
+	padding-left: 0;
+	width: 13em;
+}
+.menuSection .submenu div a:hover{
+	background: none repeat scroll 0 0 #007DBA;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menuSection #jbToolSrvc .submenu{
+	width: 13.6em;
+}
+.menuSection #jbToolSrvc .submenu div{
+	background: none repeat scroll 0 0 #FFFFFF;
+    width: 13.6em;
+}
+.menuSection #crsPolRwds .submenu{
+	width: 14.5em;
+}
+.menuSection #crsPolRwds .submenu div{
+	background: none repeat scroll 0 0 #FFFFFF;
+	width: 14.5em;
+}
+.menuSection #orgLoc .submenu{
+	width: 12em;
+}
+.menuSection #orgLoc .submenu div{
+	background: none repeat scroll 0 0 #FFFFFF;
+	width: 12em;
+}
+.menuSection #indexes .submenu{
+	background: none repeat scroll 0 0 #FFFFFF;
+	width: 10em;
+}
+.menuSection #indexes .submenu div{
+	background: none repeat scroll 0 0 #FFFFFF;
+	width: 10em;
+}
+.menuSection #siteDirText .submenu{
+	background: none repeat scroll 0 0 #FFFFFF;
+	/*font-size:0.95em;*/
+	font-size:1.1em;
+	width: 45em;
+}
+
+.hover .submenu {
+	display:block;
+}
+.submenu a {
+	background: none repeat scroll 0 0 #FFFFFF;
+	color: #777777;
+	display: block;
+	padding: 0.1em 0.1em 0.1em 0.3em;
+	text-decoration: none;
+}
+.submenu a:hover{
+	background: #007DBA;
+	color:#ffffff;
+	text-decoration: underline;
+}
+.submenu div {
+	float: left;
+	width: 15em;
+}
+/********    Site Dir Links content section   ***********/
+
+
+/********    People finder styling classes ***************/
+.tac .ui-menu .ui-menu-item {
+	cursor:pointer;
+	/*background: -moz-linear-gradient(left top , #F6FAFD, #E9F4FE); 
+	background: -webkit-linear-gradient(left top , #F6FAFD, #E9F4FE); 
+	background: linear-gradient(left top , #F6FAFD, #E9F4FE); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F6FAFD', endColorstr='#E9F4FE',GradientType=4 );
+	background: -ms-linear-gradient(top,  #E9F4FE 0%,#F6FAFD 100%,#F6FAFD 100*/
+}
+.tac .record td span.mailId {
+    color: #626262;
+    font-size: 1.2em;
+}
+.tac .ui-menu .ui-menu-item a.listedName{
+	font-weight:bold;
+	text-decoration:none;
+	display:inline;
+	font-size:1em;
+	font-size: 1.2em;
+}
+.tac .record td.buName {
+    font-size: 1.1em;
+}
+.tac .ui-menu .ui-menu-item a.ui-state-hover,
+.tac #ui-active-menuitem{
+   margin:0px;
+}
+.tac .rec-title{
+	font-family:HPSimplified_Bd,Arial,Helvetica;
+	font-size:1.1em !important;
+}
+.tac .ui-menu .record .ui-icon{
+	position:static;
+}
+/********    People finder styling classes ***************/
+
+/********************    Ie8 hacks  ********************/
+.ie8_hack input.placeholder,
+.ie9_hack input.placeholder{
+	color:#777777;	
+	font-family:HPSimplified_Rg,Arial,sans-serif;
+}
+.ie8_hack .searchSection .srchAndEmplLnk .pplFinder img,
+.ie8_hack .searchSection .srchAndEmplLnk .contentFinder img,
+.ie8_hack .searchSection img#hpLogo,
+.ie8_hack #siteDirText .dropdown .toplevel .empLnkImg{
+	display:block;
+}
+.ie8_hack .searchSection img#hpLogo{
+	height:5em;
+	margin-bottom:1em;
+}
+.ie8_hack .searchSection .srchAndEmplLnk .pplFinder .searchIcon,
+.ie8_hack .searchSection .srchAndEmplLnk .contentFinder .searchIcon,
+.ie8_hack .searchSection .hpLogo,
+.ie8_hack #siteDirText .dropdown .toplevel .downArrow{
+	display:none;
+}
+.ie8_hack iframe{
+	/*height:1215px !important;*/
+}
+/********************    Ie8 hacks  ********************/
+
+/******************    Chrome hacks  *****************/
+.chrome_hack iframe{
+	/*width:98.5% !important;*/
+}
+/******************    Chrome hacks  *****************/

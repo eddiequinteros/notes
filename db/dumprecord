@@ -1,0 +1,18 @@
+#!/usr/bin/php
+<?php
+
+$database = "/var/www/html/notes/db/notes-db";
+$db = new SQLite3($database);
+
+#print("dumping record for $argv[1]\n\n");
+
+$myquery="SELECT * FROM last_number";
+//WHERE rpm_full_name = '$argv[1]'";
+$result = $db->query($myquery)  or die('Query failed');
+
+while ($row = $result->fetchArray())
+{
+	$id=$row['id'];
+	print $id;
+}
+?>

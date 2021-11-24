@@ -1,0 +1,11 @@
+Dear Notes user:
+	This email is sent to you because a note submitted by you has been
+deleted.
+
+If the note number on the email subject was not deleted by you, or it was deleted by you by mistake and you would like to have it restored in the notes database again. Please forward this email to eddie.quinteros@hp.com within the next 15 days.
+
+If we don't hear from you by then, we'll consider the note was intentionally deleted.
+
+
+Thank you for using Notes.
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+rm -rf notes-db
+sqlite3 notes-db < notes-schema
+chown www-data:www-data notes-db
+chmod -R 777 .
+
