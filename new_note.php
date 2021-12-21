@@ -23,6 +23,7 @@ Fields with <font color="red"> * </font>must be filled
   <tr><td><font color="red"> * </font>Your Email:</td><td><input type=text size=50 name="Email"></td></tr>
   <tr><td><font color="red"> * </font>Category:</td>
      <td><select name=Vendor size=1>
+	<option> Technical
 	<option> House
 	<option> Car
 	<option> Boat
