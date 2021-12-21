@@ -22,6 +22,7 @@ function goBack()
  <table>
   <tr><td>Vendor:</td>
      <td><select name=Vendor size=1>
+        <option> Technical 
         <option> House
         <option> Car
         <option> Boat
