@@ -43,9 +43,11 @@ if(strcmp("",$Email))
     <tr><td>Vendor:</td><td>$Vendor</td></tr>
     <tr><td>Component:</td><td>$Component</td></tr>
     <tr><td>Title:<br></td><td>$Title</td></tr>
-    <tr><td>Description:<br></td><td>$Description</td></tr>
+    </table>
+    <br>
+    <table border=1>
+    <tr><td>Description:</td></tr><tr><td>$Description</td></tr>
     </table>";
-
   echo "<br>
   <table>
   <tr>

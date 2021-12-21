@@ -60,7 +60,10 @@
 	  <tr><td>Vendor:</td><td>$Vendor</td></tr>
 	  <tr><td>Component:</td><td>$Component</td></tr>
 	  <tr><td>Title:</td><td>$Title</td></tr>
-	  <tr><td>Description:</td><td>$desc</td></tr>
+	  </table>
+	  <br>
+	  <table border=1>
+	  <tr><td>Description:</td></tr><tr><td>$desc</td></tr>
 	</table>");
 	print("<br>
 	<table>
@@ -81,7 +84,9 @@
 	</tr>
 	</table>");
 ?>
-	<input type="button" value="Close Window" onclick="self.close()">
+        <td><form  action=index.php method=POST>
+        <input type=submit value=Home></td>
+        </form></td>
 	<?php
 	}
 	?>
