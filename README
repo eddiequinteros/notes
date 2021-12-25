@@ -2,11 +2,9 @@ Author: Eddie Quinteros
 
 todo
 
-1 - create a repo on github
-
 2 - take out Resolution
 
-3 - Make sure all winsows close or get back to index.php
+3 - Make sure all windows close or get back to index.php
 	ie execute_delete_note.php
 
 4 - correct the date on search note
