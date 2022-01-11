@@ -11,6 +11,7 @@
 <br>
 <h2>Main menu</h2>
 <br>
+<br>
 <table>
 	<form action="search_notes.php" method="POST">
 	<td><input type="submit" value="Search Notes"></td>
