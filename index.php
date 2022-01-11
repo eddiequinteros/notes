@@ -4,7 +4,6 @@
 <link rel='stylesheet' href="css/standard.css">
 </head>
 <body>
-<br>
 <center>
 <br>
 <br><h2><font color=red>Welcome Personal Notes Page</font></h2><br>
